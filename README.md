@@ -92,7 +92,8 @@ The resulting framework is intended to support **empirical, policy-relevant asse
 Generate a synthetic population with sensitive attributes using privacy-preserving techniques.
 
 **Steps**
-1. Download the Pew synthetic population dataset:  
+
+1. Email [info@pewresearch.org](mailto:info@pewresearch.org) for access to download the PEW Research synthetic US population dataset from here:  
    https://www.pewresearch.org/methods/2018/01/26/appendix-b-synthetic-population-dataset/
 2. Run `syntheticdata.py` to add additional attributes and produce a synthetic population.
 
