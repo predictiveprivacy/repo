@@ -17,8 +17,7 @@ results/
 │   ├── Barplots_survey1.pdf
 │   ├── Boxplots_survey1.pdf
 │   ├── Heatmap_survey1.pdf
-│   ├── LinearPlots_survey1.pdf
-│   └── README.md
+│   └── LinearPlots_survey1.pdf
 ├── survey2/
 │   ├── Barplots_survey2.pdf
 │   ├── Boxplots_survey2.pdf
