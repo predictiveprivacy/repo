@@ -42,29 +42,33 @@ The resulting framework is intended to support **empirical, policy-relevant asse
 
 ```text
 ├── analysis/                             # Statistical analysis & modeling
+│   ├── README.md
 │   ├── statanalysis_100Certain.py        # Survey 1: 100% certainty
 │   └── statanalysis_50_75Certain.py      # Survey 2: 50% vs 75% certainty
 │
-├── data/                                 # Aggregated survey outputs (no demographics)
+├── data/
+│   ├── README.md                                 # Aggregated survey outputs (no demographics)
 │   ├── survey1_results.csv
 │   └── survey2_results.csv
 │
 ├── preprocessing/                        # Data preparation & survey setup
+│   ├── README.md
 │   ├── syntheticdata.py                  # Synthetic profile generation
 │   ├── clustering.py                     # Clustering of synthetic profiles
 │   └── survey_generation.py              # Survey construction & export
 │
 ├── results/                              # Example plots and figures
+│   ├── README.md
 │   ├── survey1/
 │   │   ├── barplots_survey1.pdf
 │   │   ├── boxplots_survey1.pdf
 │   │   ├── heatmap_survey1.pdf
 │   │   └── linearplots_survey1.pdf
 │   └── survey2/
-│       ├── barplots_survey2.pdf
-│       ├── boxplots_survey2.pdf
-│       ├── heatmap_survey2.pdf
-│       └── linearplots_survey2.pdf
+│   │   ├── barplots_survey2.pdf
+│   │   ├── boxplots_survey2.pdf
+│   │   ├── heatmap_survey2.pdf
+│   │   └── linearplots_survey2.pdf
 │
 └── README.md                             # Project overview
 ```
